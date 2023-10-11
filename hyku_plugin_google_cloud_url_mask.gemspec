@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  spec.add_dependency "rails", "~> 6.1.4", ">= 6.1.4.7"
+  spec.add_dependency "rails", "~> 5.2.5" 
 
   spec.add_dependency "google-cloud-storage", "~> 1.31"
   spec.add_dependency "google-cloud-pubsub", "~> 2.6.1"
