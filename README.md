@@ -1,0 +1,1 @@
+# hyku_plugin_google_cloud_url_mask
