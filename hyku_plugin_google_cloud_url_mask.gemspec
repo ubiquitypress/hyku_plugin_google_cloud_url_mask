@@ -19,4 +19,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "google-cloud-storage", "~> 1.31"
   spec.add_dependency "google-cloud-pubsub", "~> 2.6.1"
   spec.add_dependency "gapic-common", "0.3.4"
+  spec.add_dependency "googleauth", "0.17.1"
 end
