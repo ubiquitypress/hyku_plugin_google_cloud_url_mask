@@ -1,5 +1,5 @@
-require_relative "../app/controllers/hyku_plugin_cloud_url_mask/application_controller"
-require_relative "../app/controllers/hyku_plugin_cloud_url_mask/app/files_controller_behavior"
+require_relative "../app/controllers/hyku_plugin_google_cloud_url_mask/application_controller"
+require_relative "../app/controllers/hyku_plugin_google_cloud_url_mask/app/files_controller_behavior"
 require_relative "../app/services/file_signed_url_service"
 
 module HykuPluginGoogleCloudUrlMask
