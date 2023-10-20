@@ -3,8 +3,7 @@ require_relative "../../app/services/file_signed_url_service.rb"
 
 module HykuPluginGoogleCloudUrlMask
   class Engine < ::Rails::Engine
-    isolate_namespace HykuPluginGoogleCloudUrlMask
-
+    
     def self.mixins
       ::Hyku::API::V1::FilesController.include HykuPluginGoogleCloudUrlMask::FilesControllerBehavior
     end
